@@ -125,8 +125,8 @@ export default async function Post({ params: { postId } }: Props) {
 
         <article className="mt-2 text-black/90 mx-auto px-8 py-4 bg-black/5 shadow-lg">
           {content}
-          <div className=" py-4 font-light text-center mx-auto">
-            <h3 className="">Topics:</h3>
+          <div className=" border-t-2 py-4 font-light text-center mx-auto">
+            <h3 className="pt-2">Topics:</h3>
             <div className="flex justify-center font-normal flex-row gap-4">
               {tags}
             </div>

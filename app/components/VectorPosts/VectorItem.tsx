@@ -23,9 +23,6 @@ export default function VectorItem({ post }: Props) {
               {title}
             </h3>
           </div>
-          <p className="pr-2 mt-1.5 max-w-[45ch] text-xs text-black/90">
-            payment links
-          </p>
         </div>
 
         <p className="text-black/90 text-xs pb-2 pl-2">{formattedDate}</p>
