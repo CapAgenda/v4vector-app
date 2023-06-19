@@ -106,7 +106,7 @@ export default async function Post({ params: { postId } }: Props) {
         <div className="flex  mb-8 justify-center">
           <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm">
             <Link
-              href={meta.svgfile}
+              href={gitHubRawUrl + meta.svgfile}
               download
               className="inline-block px-4 py-2 text-sm font-medium text-black/90 hover:bg-gray-50 focus:relative"
             >
