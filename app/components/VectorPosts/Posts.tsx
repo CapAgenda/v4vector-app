@@ -13,7 +13,7 @@ export default async function Posts() {
       id="illustrations"
       className="max-w-screen-xl  px-4 py-32 mx-auto sm:px-6 sm:py-20 lg:px-8"
     >
-      <header className="text-center">
+      <div className="text-center">
         <h2 className="text-xl font-bold text-black/90 sm:text-3xl">
           Recent V4Vector Illustrations
         </h2>
@@ -21,7 +21,7 @@ export default async function Posts() {
           This is a selection of the most recent requests made using V4Vector.
           Give it a try or check out some of the requests others have submitted.
         </p>
-      </header>
+      </div>
 
       <ul className="grid grid-cols-1 gap-4 mt-20 lg:grid-cols-3">
         {posts.map((post) => (

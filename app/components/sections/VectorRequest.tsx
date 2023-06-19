@@ -87,7 +87,6 @@ export default function VectorRequest() {
               placeholder="Choose a Title For Your Artwork"
               value={data.title}
               onChange={handleChange}
-              autoFocus
             />
             <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
               <svg
